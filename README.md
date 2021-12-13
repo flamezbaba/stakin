@@ -37,5 +37,8 @@ npm run build
 npm run lint
 ```
 
+<img src="polygon.png">
+<img src="solana.png">
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

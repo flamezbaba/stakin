@@ -29,6 +29,8 @@ const routes = [
   { path: '/dashboard', name: 'Dashboard', component: Dashboard, beforeEnter: authGuard },
   { path: '/polygon', name: 'Polygon', component: Polygon, beforeEnter: authGuard },
   { path: '/solana', name: 'Solana', component: Solana, beforeEnter: authGuard },
+  { path: '/:pathMatch(.*)*', name: 'not-found', component: Login },
+  { path: '/:pathMatch(.*)', name: 'bad-not-found', component: Login },
 ]
 
 const router = createRouter({
