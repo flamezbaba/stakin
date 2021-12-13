@@ -176,8 +176,8 @@ export default {
           myUtils.polygonContractAddr()
         );
 
-        // var walletAddress = this.$store.state.walletAddress;
-        var walletAddress = "0x0640576050ce656d3e2eb6bbb104344a7431e352";
+        var walletAddress = this.$store.state.walletAddress;
+        // var walletAddress = "0x0640576050ce656d3e2eb6bbb104344a7431e352";
 
         // get info from smart contract
         var valTotalStack = await myContractInstance.methods

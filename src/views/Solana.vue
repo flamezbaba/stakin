@@ -183,7 +183,7 @@ export default {
 
       try {
         if (this.walletAddress) {
-          this.walletAddress = "DrFkftQ9PMW2Tk7axt9evVynY8XSAoFJxPeHiSoffZ9S";
+          // this.walletAddress = "DrFkftQ9PMW2Tk7axt9evVynY8XSAoFJxPeHiSoffZ9S";
           var response = await axios.get(
             `https://public-api.solscan.io/account/${this.walletAddress}`
           );
