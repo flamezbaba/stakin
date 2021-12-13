@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .my-input {
+    @apply py-3 pr-2 bg-gray-200 text-gray-900 outline-none pl-3 md:pl-4;
+  }
+
+  .my-red-btn{
+    @apply bg-red-400 p-3 text-white hover:bg-red-500;
+  }
+
+  .my-round-btn{
+    @apply rounded-md p-2;
+  }
+}
+
+@layer utilities {
+  .h-278 {
+    height: 278px;
+  }
+}
